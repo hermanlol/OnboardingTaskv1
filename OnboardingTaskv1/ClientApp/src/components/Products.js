@@ -54,7 +54,7 @@ export class Products extends React.Component {
         })
             .then(res => res.json())
             .then((result) => {
-                alert(result);
+                //alert(result);
                 this.loadData();
             }, (error) => {
                 this.loadData();
@@ -73,7 +73,7 @@ export class Products extends React.Component {
         })
             .then(res => res.json())
             .then((result) => {
-                alert(result);
+                //alert(result);
                 this.loadData();
             }, (error) => {
                 this.loadData();

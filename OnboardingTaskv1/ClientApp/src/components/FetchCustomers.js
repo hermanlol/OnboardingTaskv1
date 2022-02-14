@@ -67,7 +67,7 @@ export class FetchCustomers extends React.Component {
         })
             .then(res => res.json())
             .then((result) => {
-                alert(result);
+                //alert(result);
                 this.loadData();
             }, (error) => {
                 alert('Error, Please try again!');
@@ -85,7 +85,7 @@ export class FetchCustomers extends React.Component {
         })
             .then(res => res.json())
             .then((result) => {
-                alert(result);
+                //alert(result);
                 this.loadData();
             }, (error) => {
                 this.loadData();

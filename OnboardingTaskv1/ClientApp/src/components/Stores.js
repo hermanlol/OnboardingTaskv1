@@ -36,7 +36,7 @@ export class Stores extends React.Component {
         })
             .then(res => res.json())
             .then((result) => {
-                alert(result);
+                //alert(result);
                 this.loadData();
             }, (error) => {
                 alert('Failed');
@@ -58,7 +58,7 @@ export class Stores extends React.Component {
         })
             .then(res => res.json())
             .then((result) => {
-                alert(result);
+                //alert(result);
                 this.loadData();
             }, (error) => {
                 this.loadData();
