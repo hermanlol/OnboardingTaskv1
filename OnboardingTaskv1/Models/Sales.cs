@@ -17,6 +17,7 @@ namespace OnboardingTaskv1.Models
         public int CustomerId { get; set; }
         [Required]
         public int StoreId { get; set; }
+        [Required]
         public DateTime? DateSold { get; set; }
 
         public virtual Customer Customer { get; set; }
